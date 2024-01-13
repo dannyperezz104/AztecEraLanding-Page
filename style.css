@@ -1,0 +1,167 @@
+:root{
+    --gradient: linear-gradient(
+        45deg,
+        #788BB8,
+        purple,
+        #B8788B,
+        #04AF70,
+        #788BB8
+    );
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+    
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #788BB8;
+    height: 50px;
+    padding: 0px 16px;
+}
+
+.logo > a, li > a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a:hover{
+    color: purple;
+}
+
+li > a{
+    font-size: 16px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#B8788B;
+    background: linear-gradient(to left, purple,#B8788B);
+    height: 30vh;
+    gap: 20px;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 8px;
+}
+
+h1{
+    padding: 0px;
+    margin: 8px;
+}
+
+.Aztec-Pyramid{
+    height: 35vh;
+    width: auto;
+}
+
+.icon{
+    height: 150px;
+    width: auto;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    margin: 16px;
+    align-items: center;
+    background: linear-gradient(to top left, #8BB878, #04AF70);
+    height: 30vh;
+    margin: 0;
+    padding: 0px;
+}
+
+.clothing-div, .streaming-div, .beat-store-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon.clothing, .icon.streaming, .icon.BeatStore{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+div > p {
+    margin: 15px;
+    font-family:'Hero Main', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.div3{
+    height: 25vh;
+    background: radial-gradient(#04AF70, #788BB8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s;
+    color: white;
+    font-style: bold;
+}
+
+button:hover{
+    background-position: right;
+}
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: radial-gradient(#B878AB, #788BB8);
+    height: 8vh;
+    padding: 10px;
+}
+
+.icon.instagram, .icon.tiktok, .icon.x{
+    height: 35px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 0 auto;
+}
+
